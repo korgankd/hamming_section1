@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var fb = require('./hamming');
+var	first = process.argv[2];
+var	second = process.argv[3];
+
+console.log(fb.compute(first, second));
